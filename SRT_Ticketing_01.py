@@ -19,15 +19,15 @@ driver.find_element_by_css_selector('#login-form > fieldset > div.input-area.log
 driver.find_element_by_css_selector('#srchDvNm03').click() #아이디창 클링
 driver.find_element_by_css_selector('#srchDvNm03').send_keys('01050264650') #폰번입력
 
-pw = 'money15!%'
+pw = "비밀번호"
 driver.find_element_by_css_selector('#hmpgPwdCphd03').click() #비번 클링
-driver.find_element_by_css_selector('#hmpgPwdCphd03').send_keys('money15!%')
+driver.find_element_by_css_selector('#hmpgPwdCphd03').send_keys(pw)
 #driver.find_element_by_css_selector('#hmpgPwdCphd03').send_keys(keys.RETURN)
 
 #driver.execute_script(f"document.getElementsByName('hmpgPwdCphd')[0][0][0].value='{pw}'")
 
 #driver.find_element_by_css_selector('#hmpgPwdCphd03').
-#driver.find_element_by_css_selector('#hmpgPwdCphd03').send_keys('money15!%') #폰번입력
+#driver.find_element_by_css_selector('#hmpgPwdCphd03').send_keys(pw) #폰번입력
 #hmpgPwdCphd03
 
 
